@@ -1,4 +1,5 @@
 describe 'Artist' do
+  let(:artist) {Artist.new('Michael Jackson')}
 
   before(:example) {
     Artist.class_variable_set(:@@all, [])
